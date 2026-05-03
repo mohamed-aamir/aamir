@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Aamir | IIT Madras</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #fcfcfc; color: #333; }
+        .hero-gradient { background: linear-gradient(135deg, #004d40 0%, #00241f 100%); }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header class="hero-gradient text-white py-16 px-6">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+            <!-- Profile Image Placeholder -->
+            <div class="w-40 h-40 rounded-full bg-gray-300 border-4 border-white/20 flex items-center justify-center overflow-hidden">
+                <i class="fa-solid fa-user text-6xl text-white/50"></i>
+                <!-- When you have a photo, replace the line above with: 
+                <img src="your-photo.jpg" alt="Mohamed Aamir" class="w-full h-full object-cover"> -->
+            </div>
+            
+            <div class="flex-1 text-center md:text-left">
+                <h1 class="text-4xl font-semibold">Mohamed Aamir</h1>
+                <p class="text-xl mt-2 text-teal-100">PhD Scholar | Ocean Engineering</p>
+                <p class="text-lg opacity-90">Indian Institute of Technology (IIT) Madras</p>
+                
+                <div class="mt-6 flex flex-wrap justify-center md:justify-start gap-4">
+                    <a href="https://www.linkedin.com/in/mohamedaamir08/" target="_blank" class="hover:text-teal-300 transition"><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                    <a href="https://www.researchgate.net/profile/Mohamed-Aamir" target="_blank" class="hover:text-teal-300 transition"><i class="fa-brands fa-researchgate text-2xl"></i></a>
+                    <a href="https://orcid.org/0009-0009-3430-2502" target="_blank" class="hover:text-teal-300 transition"><i class="fa-brands fa-orcid text-2xl"></i></a>
+                    <a href="mailto:your-email@smail.iitm.ac.in" class="hover:text-teal-300 transition"><i class="fa-solid fa-envelope text-2xl"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-12 space-y-16">
+
+        <!-- About Section -->
+        <section>
+            <h2 class="text-2xl font-semibold border-b-2 border-teal-600 inline-block mb-6">About Me</h2>
+            <p class="text-lg leading-relaxed text-gray-700">
+                I am a sophomore PhD scholar in the <strong>Department of Ocean Engineering at IIT Madras</strong>, working under the guidance of <strong>Dr. K. Narendran</strong>. My research focuses on the intersection of hydrodynamics and structural stability of offshore systems.
+            </p>
+        </section>
+
+        <!-- Research Section -->
+        <section class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+            <h2 class="text-2xl font-semibold text-teal-800 mb-4">Research Focus</h2>
+            <div class="flex items-start gap-4">
+                <div class="mt-1 text-teal-600"><i class="fa-solid fa-anchor text-xl"></i></div>
+                <div>
+                    <h3 class="text-xl font-medium">Moored Floating Offshore Structures</h3>
+                    <p class="text-gray-600 mt-2">
+                        I am currently investigating the dynamics and stability of moored systems in varied sea states. My work involves numerical modeling and computational analysis to improve the reliability of next-generation offshore platforms.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Teaching Section -->
+        <section>
+            <h2 class="text-2xl font-semibold border-b-2 border-teal-600 inline-block mb-6">Teaching Experience</h2>
+            <div class="space-y-6">
+                <div class="border-l-4 border-gray-200 pl-4">
+                    <h3 class="text-lg font-semibold">Module Instructor: Introduction to OpenFOAM</h3>
+                    <p class="text-sm text-teal-700 font-medium uppercase tracking-wider">Jan – May 2025</p>
+                    <p class="text-gray-600 mt-1">
+                        Conducted the OpenFOAM module for <strong>OE5555: Summer Training in Computer Modeling and Simulation</strong>. Instructed Master's students on CFD workflows, mesh generation, and hydrodynamic solvers.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Placeholder for Future Content -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="p-6 bg-gray-50 rounded-lg border border-dashed border-gray-300 text-center">
+                <i class="fa-solid fa-file-lines text-gray-400 mb-2"></i>
+                <p class="text-gray-500 font-medium">Publications Coming Soon</p>
+            </div>
+            <div class="p-6 bg-gray-50 rounded-lg border border-dashed border-gray-300 text-center">
+                <i class="fa-solid fa-address-card text-gray-400 mb-2"></i>
+                <p class="text-gray-500 font-medium">CV available on request</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-12 text-gray-400 text-sm">
+        &copy; 2024 Mohamed Aamir • Built with HTML/Tailwind
+    </footer>
+
+</body>
+</html>
